@@ -8,7 +8,27 @@ nav_order: 2
 
 ## Keynote Speakers
 
-Coming Soon
+<html>
+  <div class="keynote-container">
+
+    <div class="keynote-speaker">
+      <img src="/assets/img/speakers/tiago.jpg" alt="Tiago Pimentel">
+      <div class="keynote-details">
+        <h3>
+          <a href="https://tpimentelms.github.io">Tiago Pimentel</a><br>
+          <small>ETH Zürich</small>
+        </h3>
+        <p class="abstract">
+          <strong>How much does tokenisation impact language models? </strong><br>
+        Tokenisers are the foundation on which most modern language models are built, transforming raw, human-readable text—sequences of characters—into the sequences of tokens our models actually process. Despite this central role, much about tokenisation remains poorly understood. In this talk, I will present recent results that begin to close this gap. I will first discuss how distributions over characters or words can be correctly recovered from language models, which natively assign probabilities to token sequences. This analysis reveals that, in theory, tokenisation should not matter: a perfectly optimised language model would yield the same character- and word-level distributions regardless of its tokeniser. In practice, however, I will show that tokenisation choices do change these distributions and that, indeed, tokenisers have a substantial impact on language models' outputs. Given this impact, we should choose our tokenisers well—ideally, optimally. However, I will show that the problem of obtaining (compression-)optimal tokenisers is NP-complete, justifying the widespread use of heuristic algorithms for their selection. I will then analyse what makes these heuristics more or less effective, and how they can be improved. Finally, I will close the talk with tokenisation's role in multilingual language modelling, showing that a tokeniser can reveal a text's language.
+        </p>
+        <p class="abstract">
+        <strong>Bio:</strong>Tiago Pimentel is a Postdoctoral Researcher at ETH Zürich, working at the intersection of natural language processing, interpretability, and psycholinguistics. His long-term goal is to understand how humans and machines process language. To that end, he takes an interdisciplinary approach, drawing on information theory and causality to study the mechanisms behind both model behaviour and human cognition.
+        </p>
+
+      </div>
+    </div>
+</html>
 
 
 <style>
